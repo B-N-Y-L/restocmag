@@ -1,0 +1,5 @@
+SCHIMBARI
+Versiune curenta: 1.0.0
+
+Versiunea 1.0.0
+- Prima versiune publica.

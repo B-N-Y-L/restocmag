@@ -1,0 +1,74 @@
+
+LICENTA DE UTILIZARE – SOFTWARE PROPRIETAR CU REDISTRIBUIRE PERMISA
+
+Proiect: RstocMag
+Autor: B-N-Y-L
+Pagina oficiala de distributie: https://github.com/B-N-Y-L/restocmag
+Cod sursa: Proprietate privata a autorului (nedistribuit public)
+An: 2026
+
+(c) 2026 B-N-Y-L. Toate drepturile rezervate.
+
+UTILIZAREA ACESTUI SOFTWARE CONSTITUIE ACCEPTAREA INTEGRALA A PREZENTEI LICENTE.
+
+1. NATURA LICENTEI
+RstocMag este software proprietar distribuit gratuit.
+Codul sursa al aplicatiei nu este public si nu este licentiat ca open-source.
+Licenta acordata se aplica exclusiv versiunilor binare distribuite oficial prin pagina de distributie mentionata mai sus.
+
+2. DREPTURI ACORDATE
+Se acorda un drept neexclusiv si netransferabil de:
+- utilizare a aplicatiei in scop personal sau comercial;
+- redistribuire a versiunii originale, nemodificate;
+- integrare a aplicatiei in pachete software, produse sau servicii comerciale;
+- distribuire gratuita sau contra cost, inclusiv ca parte a unui produs sau serviciu mai larg.
+
+3. CONDITII OBLIGATORII
+Orice redistribuire sau integrare trebuie sa respecte cumulativ urmatoarele conditii:
+1. Aplicatia trebuie distribuita exclusiv in forma originala, nemodificata.
+2. Toate notificarile de copyright trebuie pastrate integral.
+3. Elementele de identificare si branding nu pot fi eliminate, ascunse sau modificate.
+4. Mentiunea vizibila din interfata, inclusiv "Sponsorizat de ganapati.ro", trebuie pastrata nemodificata si vizibila utilizatorului final.
+5. Aplicatia nu poate fi prezentata ca fiind dezvoltata de un alt autor.
+6. Nu poate fi creata aparenta unei afilieri sau aprobari oficiale din partea unor terti.
+
+4. INTERDICTII
+Este interzis:
+- modificarea aplicatiei;
+- distribuirea de versiuni modificate;
+- rebrandingul;
+- eliminarea sau modificarea elementelor de branding;
+- utilizarea codului sursa sau a logicii aplicatiei in alte proiecte fara acord scris al autorului.
+
+Exceptie obligatorie pentru componente terte:
+Interdictiile de mai sus nu se aplica in masura in care ar limita drepturile
+acordate prin licentele componentelor terte distribuite cu aplicatia.
+
+Pentru bibliotecile sub LGPL v3 (PySide6, shiboken6), utilizatorul are dreptul
+de a inlocui aceste biblioteci cu versiuni compatibile, modificate sau actualizate.
+Aceste biblioteci se gasesc in folderul "_internal" din directorul de instalare.
+Detalii suplimentare in fisierul THIRD_PARTY_LICENSES.txt.
+
+5. SOFTWARE TERT
+RstocMag poate procesa fisiere generate de aplicatii terte.
+RstocMag nu este afiliat, sponsorizat sau sustinut de producatorii acestor aplicatii.
+Utilizarea aplicatiilor terte ramane supusa termenilor impusi de titularii respectivelor licente.
+
+6. EXONERARE SI LIMITAREA RASPUNDERII
+Software-ul este furnizat "CA ATARE", fara garantii de niciun fel, explicite sau implicite.
+Autorul nu garanteaza functionarea neintrerupta sau lipsita de erori a aplicatiei.
+
+In masura maxima permisa de lege, autorul nu va fi raspunzator pentru niciun fel de daune directe, indirecte, incidentale, speciale sau consecutive, inclusiv pierderi de date, pierderi financiare sau pierderi comerciale rezultate din utilizarea sau imposibilitatea utilizarii acestui software.
+
+Raspunderea totala a autorului, indiferent de temeiul juridic, este limitata la suma de 0 (zero).
+
+7. MODIFICAREA LICENTEI
+Autorul isi rezerva dreptul de a modifica termenii licentei pentru versiunile viitoare ale aplicatiei.
+Versiunile deja distribuite raman guvernate de licenta sub care au fost publicate.
+
+8. LEGE APLICABILA SI JURISDICTIE
+Prezenta licenta este guvernata de legislatia din Romania.
+Orice litigiu va fi solutionat de instantele competente din Romania.
+
+9. CLAUZA DE SEPARABILITATE
+Daca orice prevedere a prezentei licente este considerata invalida sau inaplicabila, celelalte prevederi raman in vigoare si produc efecte juridice.
