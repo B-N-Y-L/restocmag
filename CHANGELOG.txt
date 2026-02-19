@@ -1,5 +1,8 @@
 SCHIMBARI
-Versiune curenta: 1.0.0
+Versiune curenta: 1.0.1
+
+Versiunea 1.0.1
+- Rezolvat: meniul "Locatie baza" nu mai ramane blocat/greyed-out.
 
 Versiunea 1.0.0
 - Prima versiune publica.
