@@ -1,5 +1,9 @@
 SCHIMBARI
-Versiune curenta: 1.3.0
+Versiune curenta: 1.3.1
+
+Versiunea 1.3.1
+- Ajustari pentru controlul "Comanda minima": stilizare pentru spin buttons si intervale de valori actualizate.
+- Iconite SVG dedicate pentru butoanele de incrementare/decrementare.
 
 Versiunea 1.3.0
 - Filtru nou "Comanda minima" in UI, cu functionalitate de filtrare asociata.
