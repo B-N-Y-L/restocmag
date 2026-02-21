@@ -1,0 +1,67 @@
+name: Publish Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve version from tag
+        id: meta
+        shell: bash
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=$GITHUB_REF_NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Validate release assets
+        shell: bash
+        run: |
+          test -f "RstocMag-${{ steps.meta.outputs.version }}.zip"
+          test -f "RstocMag_Setup_${{ steps.meta.outputs.version }}.exe"
+
+      - name: Build release notes from latest changelog entry
+        shell: pwsh
+        run: |
+          $tagVersion = "${{ steps.meta.outputs.version }}"
+          $changelog = Get-Content -Path "CHANGELOG.txt" -Raw
+          $pattern = "(?ms)^Versiunea\s+(\d+\.\d+\.\d+)\r?\n(.*?)(?=^\s*Versiunea\s+\d+\.\d+\.\d+|\z)"
+          $match = [regex]::Match($changelog, $pattern)
+
+          if ($match.Success) {
+            $latestVersion = $match.Groups[1].Value
+            if ($latestVersion -ne $tagVersion) {
+              throw "Tag-ul v$tagVersion nu corespunde cu ultima intrare din CHANGELOG.txt (Versiunea $latestVersion)."
+            }
+
+            $body = "Versiunea $latestVersion`n" + $match.Groups[2].Value.Trim()
+          } else {
+            $body = "Vezi CHANGELOG.txt pentru detalii despre versiunea $tagVersion."
+          }
+
+          Set-Content -Path "release_notes.txt" -Value $body -Encoding UTF8
+
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          gh release create "${{ steps.meta.outputs.tag }}" \
+            "RstocMag-${{ steps.meta.outputs.version }}.zip" \
+            "RstocMag_Setup_${{ steps.meta.outputs.version }}.exe" \
+            "CHANGELOG.txt" \
+            "LICENSE.txt" \
+            "LGPL-3.0.txt" \
+            "THIRD_PARTY_LICENSES.txt" \
+            --title "RstocMag ${{ steps.meta.outputs.version }}" \
+            --notes-file "release_notes.txt"
