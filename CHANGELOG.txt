@@ -1,5 +1,12 @@
 SCHIMBARI
-Versiune curenta: 1.2.0
+Versiune curenta: 1.3.0
+
+Versiunea 1.3.0
+- Filtru nou "Comanda minima" in UI, cu functionalitate de filtrare asociata.
+- Meniu contextual in tabele pentru copiere rapida a continutului celulelor.
+- Refactor pentru verificarea/update-ul SHA-256 din release-urile GitHub.
+- Scriptul de build nu mai genereaza checksum local si nu mai sterge .gitignore la cleanup.
+- Teste extinse pentru fluxuri si helper-e.
 
 Versiunea 1.2.0
 - Cautare avansata: suport expresii multi-termen cu AND/OR/NOT.
