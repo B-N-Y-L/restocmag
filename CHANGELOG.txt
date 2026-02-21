@@ -1,5 +1,20 @@
 SCHIMBARI
-Versiune curenta: 1.0.1
+Versiune curenta: 1.2.0
+
+Versiunea 1.2.0
+- Cautare avansata: suport expresii multi-termen cu AND/OR/NOT.
+- Interfata de cautare extinsa cu campuri suplimentare, reset imbunatatit si calcul mai bun al inaltimii randurilor.
+- Dialoguri AutoCmd si AutoLivrare refactorizate (baza comuna ThresholdParamsDialog) si flux de export consolidat.
+- Update instalator securizat: generare si verificare checksum SHA-256 la descarcare.
+- Stabilitate la inchidere: oprire corecta pentru thread-urile de update si download.
+- Gestionare stare de incarcare imbunatatita si fallback mai robust pentru import ctypes.
+- Teste unitare noi pentru helper-e, compararea versiunilor si extragerea SHA-256.
+- Dependinte actualizate in requirements.txt.
+
+Comparatie cu ultimul release (1.0.1)
+- Functionalitati noi majore: AutoCmd/AutoLivrare + cautare avansata.
+- Securitate si fiabilitate crescute pentru update-ul aplicatiei.
+- Acoperire de testare extinsa semnificativ.
 
 Versiunea 1.0.1
 - Rezolvat: meniul "Locatie baza" nu mai ramane blocat/greyed-out.

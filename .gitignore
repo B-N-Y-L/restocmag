@@ -1,0 +1,14 @@
+# Release/build artifacts
+*.exe
+*.zip
+
+# Logs
+*.log
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+
+# Local editor/IDE files
+.idea/
+.vscode/
