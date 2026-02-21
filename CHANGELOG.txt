@@ -1,5 +1,10 @@
 SCHIMBARI
-Versiune curenta: 1.3.1
+Versiune curenta: 1.3.2
+
+Versiunea 1.3.2
+- Update silent: aplicatia este relansata automat dupa finalizarea instalarii.
+- Corectie startup: focusul initial este setat pe campul "Furnizor", nu pe "Minim".
+- Corectie build: iconitele SVG pentru butoanele controlului "Comanda minima" sunt incluse corect in pachet.
 
 Versiunea 1.3.1
 - Ajustari pentru controlul "Comanda minima": stilizare pentru spin buttons si intervale de valori actualizate.
