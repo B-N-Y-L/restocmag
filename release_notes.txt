@@ -1,4 +1,0 @@
-﻿Versiunea 1.3.3
-- Corectie build: scriptul foloseste prioritar `.venv\Scripts\python.exe`, cu fallback la `venv\Scripts\python.exe`.
-- Corectie installer: instalarea este fortata pe arhitectura 64-bit (`ArchitecturesAllowed` si `ArchitecturesInstallIn64BitMode` setate la `x64compatible`).
-- Corectie update installer: nu se mai mosteneste automat folderul vechi de instalare (`UsePreviousAppDir=no`), evitand reinstalari in `Program Files (x86)`.
