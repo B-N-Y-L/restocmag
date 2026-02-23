@@ -12,3 +12,6 @@ Thumbs.db
 # Local editor/IDE files
 .idea/
 .vscode/
+
+# Agent instructions
+**/AGENTS.md
