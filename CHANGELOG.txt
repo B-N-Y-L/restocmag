@@ -1,5 +1,14 @@
 SCHIMBARI
-Versiune curenta: 1.4.1
+Versiune curenta: 1.5.0
+
+Versiunea 1.5.0
+- Dialogurile Auto au texte clarificate: `AutoCmd` devine `AutoComanda`, iar etichetele pentru `AutoComanda`/`AutoLivrare` sunt reformulate mai explicit.
+- Spinbox-urile din dialogurile Auto au UI imbunatatit: sageti vizibile, latime fixa si stilizare dedicata (inclusiv icon-uri SVG pentru up/down).
+- Functionalitate noua de excludere temporara produse din comanda (fara persistenta):
+  - din meniul contextual: "Ascunde temporar din comanda";
+  - actiune de revenire: "Reafiseaza toate ascunse temporar";
+  - shortcut: tasta `Delete` ascunde temporar produsul selectat (cu protectie cand se editeaza inline).
+- Excluderile temporare sunt integrate in filtrare/cautare si se reseteaza la schimbarea contextului (reset filtre, schimbare furnizor, revenire la "toti furnizorii").
 
 Versiunea 1.4.1
 - La schimbarea furnizorului, comenzile introduse se reseteaza (`command_qty.clear()`), iar filtrul "Comanda minima" revine la 0.
