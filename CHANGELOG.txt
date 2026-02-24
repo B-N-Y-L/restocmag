@@ -1,5 +1,8 @@
 SCHIMBARI
-Versiune curenta: 1.5.1
+Versiune curenta: 1.5.2
+
+Versiunea 1.5.2
+- Reordonare bara principala: butonul `ExportComenzi` a fost mutat inainte de `AutoComanda`.
 
 Versiunea 1.5.1
 - Reordonare butoane pe bara principala: `ExportTabel` este ultimul.
