@@ -1,5 +1,8 @@
 SCHIMBARI
-Versiune curenta: 1.7.0
+Versiune curenta: 1.7.1
+
+Versiunea 1.7.1
+- Fix build: includere `checkmark_white.svg` in pachetul PyInstaller.
 
 Versiunea 1.7.0
 - AutoLivrare: prioritate configurabila a locatiilor cand stocul de baza nu acopera necesarul.
