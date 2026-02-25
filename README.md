@@ -2,7 +2,7 @@
 
 # RstocMag — Descarcari
 
-RstocMag este o aplicatie desktop, pentru analiza stocurilor si generarea comenzilor intre locatii, pe baza unui raport de gestiune, generat din apliatii terte.
+RstocMag este o aplicatie desktop, pentru analiza stocurilor si generarea comenzilor intre locatii, pe baza unui raport de gestiune, generat din aplicatii terte.
 
 Acest repository este utilizat exclusiv pentru distributia aplicatiei (binar Windows). Codul sursa este privat.
 
