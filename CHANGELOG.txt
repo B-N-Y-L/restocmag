@@ -1,5 +1,12 @@
 SCHIMBARI
-Versiune curenta: 1.5.2
+Versiune curenta: 1.6.0
+
+Versiunea 1.6.0
+- Excluderi permanente produse din comanda (persistenta), cu dialog dedicat.
+- Refactor setari aplicatie prin clasa `AppSettings` (compatibilitate inapoi pastrata).
+- Export Excel imbunatatit: utilitare noi si fisiere dedicate pentru comenzi/tabel vizibil.
+- UI: componente noi pentru cautare si bara de jos (layout imbunatatit).
+- Update flow: ajustari de comportament si teste suplimentare.
 
 Versiunea 1.5.2
 - Reordonare bara principala: butonul `ExportComenzi` a fost mutat inainte de `AutoComanda`.
