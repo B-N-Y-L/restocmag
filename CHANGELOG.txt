@@ -1,5 +1,8 @@
 SCHIMBARI
-Versiune curenta: 1.6.0
+Versiune curenta: 1.6.1
+
+Versiunea 1.6.1
+- Actualizare versiune (release de mentenanta).
 
 Versiunea 1.6.0
 - Excluderi permanente produse din comanda (persistenta), cu dialog dedicat.
