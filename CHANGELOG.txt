@@ -1,5 +1,12 @@
 SCHIMBARI
-Versiune curenta: 1.6.1
+Versiune curenta: 1.7.0
+
+Versiunea 1.7.0
+- AutoLivrare: prioritate configurabila a locatiilor cand stocul de baza nu acopera necesarul.
+- Meniu nou in "Setari > Locatii": "Prioritate livrare", cu dialog de ordonare.
+- Persistenta setari noi in AppSettings: ordinea prioritatii livrarii si optiunea "Ascunse mereu la pornire".
+- Refactor calcul transferuri intr-un serviciu dedicat (allocator) pentru logica mai clara si reutilizabila.
+- Imbunatatiri UI: bara de jos, stiluri controale permanente, status bar, meniu startup si ajustari fonturi.
 
 Versiunea 1.6.1
 - Actualizare versiune (release de mentenanta).
