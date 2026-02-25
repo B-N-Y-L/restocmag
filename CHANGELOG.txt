@@ -1,5 +1,9 @@
 SCHIMBARI
-Versiune curenta: 1.7.1
+Versiune curenta: 1.7.2
+
+Versiunea 1.7.2
+- UI: butonul `Ascunse temporar` este putin mai lat pentru lizibilitate.
+- Refactor UI: dimensiunile controalelor din bara de jos au fost centralizate in `ui/bottom_bar.py`.
 
 Versiunea 1.7.1
 - Fix build: includere `checkmark_white.svg` in pachetul PyInstaller.

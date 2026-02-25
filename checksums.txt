@@ -1,1 +1,1 @@
-a8722353dd898d361f2170f2ee4cef633bbf8283d489b82374573d9072630d31  RstocMag_Setup_1.7.1.exe
+e41025a2e79acb23acb27c0efcfeb80bcaf1cb4ff172da57deeaf54df65e76b2  RstocMag_Setup_1.7.2.exe
