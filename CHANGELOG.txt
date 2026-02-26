@@ -1,5 +1,8 @@
 SCHIMBARI
-Versiune curenta: 1.7.2
+Versiune curenta: 1.7.3
+
+Versiunea 1.7.3
+- Actualizare versiune (release de mentenanta).
 
 Versiunea 1.7.2
 - UI: butonul `Ascunse temporar` este putin mai lat pentru lizibilitate.
@@ -95,4 +98,5 @@ Versiunea 1.0.1
 
 Versiunea 1.0.0
 - Prima versiune publica.
+
 
