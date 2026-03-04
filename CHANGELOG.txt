@@ -1,6 +1,16 @@
-﻿SCHIMBARI
-Versiune curenta: 1.7.4
+SCHIMBARI
+Versiune curenta: 1.7.5
 
+Versiunea 1.7.5
+- Export: dialog nou pentru alegerea dosarului de export.
+- Terminologie UI: inlocuire "folder" cu "dosar" in ecranele/mesajele de export.
+- Claritate UI: texte si tooltip-uri actualizate pentru butoane.
+- Flux manual: la activarea modului manual se goleste campul pentru cantitatea de comanda.
+- Initializare UI: campurile de cautare sunt resetate la pornire.
+- Consistenta dialoguri: butonul de confirmare este uniformizat la "Da".
+- Consistenta etichete: textul pentru "Stoc negativ" este aliniat cu restul interfetei.
+- Meniu/organizare: sortarea actiunilor din meniu si structura meniului de locatii au fost ajustate.
+- Curatare cod: eliminat apelul neutilizat _resume_sorting_after_edit.
 Versiunea 1.7.4
 - Update flow: script nou `update.bat` pentru actualizare automata din release-ul GitHub.
 - Installer/build: includere `update.bat` in pachet (`restocmag.spec`, `restocmag_setup.iss`).
@@ -106,6 +116,7 @@ Versiunea 1.0.1
 
 Versiunea 1.0.0
 - Prima versiune publica.
+
 
 
 
