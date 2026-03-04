@@ -1,5 +1,13 @@
-SCHIMBARI
-Versiune curenta: 1.7.3
+﻿SCHIMBARI
+Versiune curenta: 1.7.4
+
+Versiunea 1.7.4
+- Update flow: script nou `update.bat` pentru actualizare automata din release-ul GitHub.
+- Installer/build: includere `update.bat` in pachet (`restocmag.spec`, `restocmag_setup.iss`).
+- UI update dialog: theming dedicat pentru popup/message box de actualizare, pentru consistenta vizuala.
+- Installer silent: adaugare task pentru icon in Start Menu la fluxul de actualizare/install.
+- UI bottom bar: ajustare inaltime controale pentru layout mai coerent.
+- Refactor: eliminat cod neutilizat pentru stilizarea butonului de export (`ui/export_button_style.py`).
 
 Versiunea 1.7.3
 - Actualizare versiune (release de mentenanta).
@@ -98,5 +106,6 @@ Versiunea 1.0.1
 
 Versiunea 1.0.0
 - Prima versiune publica.
+
 
 
